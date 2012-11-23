@@ -9,7 +9,13 @@ Just download and copy to helpers folter of your custom component.
 
 ## Methods
 
-TODO
+* getVideoIframe
+* getYoutubeId
+* getVimeoId
+* getYoutubeUrl
+* getVimeoUrl
+* getYoutubeThumbs
+* getVimeoThumbs
 
 ## Authors
 
