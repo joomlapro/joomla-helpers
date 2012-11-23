@@ -1,11 +1,15 @@
-Helpers for Joomla! 3.0
-=======================
+Video Helper for Joomla! 3.0
+============================
 
-Simple helpers to use with CMS Joomla! 3.0
+Simple Video helper to use with CMS Joomla! 3.0
 
 ## Installation
 
 Just download and copy to helpers folter of your custom component.
+
+## Methods
+
+TODO
 
 ## Authors
 
