@@ -1,7 +1,7 @@
 <?php
 /**
- * @package     Slideshow
- * @subpackage  com_slideshow
+ * @package     Component
+ * @subpackage  com_component
  * @copyright   Copyright (C) 2012 AtomTech, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -10,10 +10,10 @@
 defined('_JEXEC') or die;
 
 /**
- * Slideshow Component Video Helper
+ * Component Video Helper
  *
- * @package     Slideshow
- * @subpackage  com_slideshow
+ * @package     Component
+ * @subpackage  com_component
  * @since       3.0
  */
 abstract class VideoHelper

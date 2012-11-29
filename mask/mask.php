@@ -1,7 +1,7 @@
 <?php
 /**
- * @package     Magazines
- * @subpackage  com_magazines
+ * @package     Component
+ * @subpackage  com_component
  * @copyright   Copyright (C) 2012 AtomTech, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -10,10 +10,10 @@
 defined('_JEXEC') or die;
 
 /**
- * Magazines Component Mask Helper
+ * Component Mask Helper
  *
- * @package     Magazines
- * @subpackage  com_magazines
+ * @package     Component
+ * @subpackage  com_component
  * @since       3.0
  */
 abstract class MaskHelper
