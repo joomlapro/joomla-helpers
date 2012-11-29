@@ -9,9 +9,9 @@ Just download and copy to helpers folter of your custom component.
 
 ## Usage
 
-* MaskHelper::mask($value, 'format')
+* MaskHelper::mask($value, 'the_format')
 
-or
+or type
 
 * MaskHelper::mask($value, 'phone')
 * MaskHelper::mask($value, '(99) 9999-9999')
