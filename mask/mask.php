@@ -2,7 +2,7 @@
 /**
  * @package     Component
  * @subpackage  com_component
- * @copyright   Copyright (C) 2012 AtomTech, Inc. All rights reserved.
+ * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -95,6 +95,11 @@ abstract class MaskHelper
 	 */
 	public static function mask($string, $mask)
 	{
+		if (empty($string))
+		{
+			return;
+		}
+
 		// Get a list of saved masks.
 		$list = array(
 			'phone' => '(99) 9999-9999',
