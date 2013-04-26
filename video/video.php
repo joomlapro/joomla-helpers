@@ -14,7 +14,7 @@ defined('_JEXEC') or die;
  *
  * @package     Component
  * @subpackage  com_component
- * @since       3.0
+ * @since       3.1
  */
 abstract class VideoHelper
 {
@@ -25,7 +25,7 @@ abstract class VideoHelper
 	 *
 	 * @return  string
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getVideoIframe($url)
 	{
@@ -49,7 +49,7 @@ abstract class VideoHelper
 	 *
 	 * @return  string  The youtube id.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getYoutubeId($url)
 	{
@@ -68,7 +68,7 @@ abstract class VideoHelper
 	 *
 	 * @return  integer  The vimeo id.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getVimeoId($url)
 	{
@@ -87,7 +87,7 @@ abstract class VideoHelper
 	 *
 	 * @return  string
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getYoutubeUrl($id)
 	{
@@ -106,7 +106,7 @@ abstract class VideoHelper
 	 *
 	 * @return  string
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getVimeoUrl($id)
 	{
@@ -126,7 +126,7 @@ abstract class VideoHelper
 	 *
 	 * @return  array  Url's to thumbs or specific thumb.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getYoutubeThumbs($id, $thumb = null)
 	{
@@ -160,7 +160,7 @@ abstract class VideoHelper
 	 *
 	 * @return  array  Url's to thumbs or specific thumb.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	public static function getVimeoThumbs($id, $thumb = null)
 	{
@@ -195,7 +195,7 @@ abstract class VideoHelper
 	 *
 	 * @return  array
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	private static function _isYoutubeUrl($url)
 	{
@@ -221,7 +221,7 @@ abstract class VideoHelper
 	 *
 	 * @return  array
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	private static function _isVimeoUrl($url)
 	{
@@ -249,7 +249,7 @@ abstract class VideoHelper
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	private static function _isValidUrl($url)
 	{
@@ -271,7 +271,7 @@ abstract class VideoHelper
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.0
+	 * @since   3.1
 	 */
 	private static function _isValidId($id, $vimeo = false)
 	{
